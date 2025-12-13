@@ -160,9 +160,6 @@ class ManifestAutoUpdate:
                     f.write(bytes.fromhex(self.key))
                 subprocess.run([self.git_crypt_path, 'unlock', self.key_path], cwd='data')
                 self.log.info('git crypt unlock successfully!')
-                with self.key_path.open('rb') as f:
-                    tempKey = f.read().hex()
-                    self.log.info(f'Your key hex at moment 1 is: {tempKey}')
         if not self.credential_location.exists():
             self.credential_location.mkdir(exist_ok=True)
         self.account_info = MyJson(self.users_path)
@@ -183,10 +180,6 @@ class ManifestAutoUpdate:
                         if app_id in self.update_app_id_list:
                             self.update_user_list.append(user)
         self.update_user_list = list(set(self.update_user_list))
-
-        with self.key_path.open('rb') as f:
-            tempKey = f.read().hex()
-            self.log.info(f'Your key hex at moment 2 is: {tempKey}')
 
     def download_git_crypt(self):
         if self.git_crypt_path.exists():

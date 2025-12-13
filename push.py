@@ -82,7 +82,7 @@ def push_data(repo=None):
         pass
     try:
         #添加push appuserlist.json文件到仓库
-        file_list = ['appinfo.json', 'userinfo.json', 'users.json', '2fa.json', 'apps.xlsx', 'appuserlist.json','Avalidaccount.json','KEY']
+        file_list = ['appinfo.json', 'userinfo.json', 'users.json', '2fa.json', 'apps.xlsx', 'appuserlist.json','Avalidaccount.json']
         for i in file_list:
             path = Path('data') / i
             if path.is_file():
