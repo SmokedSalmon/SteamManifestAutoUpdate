@@ -98,14 +98,8 @@ jobs:
         run: python -c "import os;import json;j=json.load(open('data/users.json'));j.update(json.loads(os.environ.get('UsersJson') or '{}'));json.dump(j,open('data/users.json','w'));"
       - if: ${{ env.TwoFactorJson != '' }}
         run: python -c "import os;import json;j=json.load(open('data/2fa.json'));j.update(json.loads(os.environ.get('TwoFactorJson') or '{}'));json.dump(j,open('data/2fa.json','w'));"
-      - if: ${{ github.event.inputs.update == 'true' }}
-        run: echo github.event.inputs.update is checked and explicitly true
-      - if: ${{ github.event.inputs.update == 'false' }}
-        run: echo github.event.inputs.update is explicitly false
-      - if: ${{ github.event.inputs.update == '' }}
-        run: echo github.event.inputs.update is an empty string
       - run: echo value passed to shell runner - ${{github.event.inputs.update}}
-      - if: ${{ github.event.inputs.update }}
+      - if: ${{ github.event.inputs.update == 'true' }}
         run: python main.py -l ${{ github.event.inputs.level || 'INFO' }} -k ${{ secrets.KEY }} -t 1 -u -P ${{ github.event.inputs.update_users != '' && format('-U {0}', github.event.inputs.update_users) || '' }} ${{ github.event.inputs.args }}
       - if: ${{ env.users != '' || env.shared_secret != '' || env.UsersJson != '' || env.TwoFactorJson != '' || github.event.inputs.update }}
         run: python push.py
