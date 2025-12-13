@@ -147,10 +147,10 @@ class ManifestAutoUpdate:
             self.log.info(f'Your key hex: {self.key}')
             self.log.info(
                 f'Please save this key to Repository secrets\nIt\'s located in Project -> Settings -> Secrets -> Actions -> Repository secrets')
-            with (self.ROOT / '.gitattributes').open('w') as f:
-                f.write('\n'.join(
-                    [i + ' filter=git-crypt diff=git-crypt' for i in ['users.json', 'client/*.key', '2fa.json']]))
-            data_repo.git.add('.gitattributes')
+            # with (self.ROOT / '.gitattributes').open('w') as f:
+            #     f.write('\n'.join(
+            #         [i + ' filter=git-crypt diff=git-crypt' for i in ['users.json', 'client/*.key', '2fa.json']]))
+            # data_repo.git.add('.gitattributes')
         if self.key and self.users_path.exists() and self.users_path.stat().st_size > 0:
             with Path(self.ROOT / 'users.json').open('rb') as f:
                 content = f.read(10)
