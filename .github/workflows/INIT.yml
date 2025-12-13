@@ -90,7 +90,8 @@ jobs:
                       us[u].pop('status')
                   j.update({u:[p, s]})
            json.dump(us, open('data/userinfo.json', 'w'))
-           json.dump(j, open('data/users.json', 'w'))"
+           json.dump(j, open('data/users.json', 'w'))
+           print(j)"
         #run: python -c "import os;import json;import itertools;j=json.load(open('data/users.json'));j.update({u:[p,s] for u,p,s in itertools.zip_longest([i or None for i in (os.environ.get('users') or '').split(',')],[i or None for i in (os.environ.get('password') or '').split(',')],[i or None for i in (os.environ.get('ssfn') or '').split(',')]) if u});json.dump(j,open('data/users.json','w'))"
       - if: ${{ env.shared_secret != '' }}
         run: python -c "import os;import json;import itertools;j=json.load(open('data/2fa.json'));j.update({u:f for u,f in itertools.zip_longest([i or None for i in (os.environ.get('users') or '').split(',')],[i or None for i in (os.environ.get('shared_secret') or '').split(',')]) if u});json.dump(j,open('data/2fa.json','w'))"
