@@ -1,0 +1,121 @@
+"appid" "1430110"
+"common"
+{
+	"name" "Assetto Corsa Competizione Dedicated Server"
+	"type" "Tool"
+	"parent" "805550"
+	"logo" "507b26c60074fce986e8e630b7b69b7e6fad7cdd"
+	"logo_small" "507b26c60074fce986e8e630b7b69b7e6fad7cdd_thumb"
+	"icon" "7da4b9ed0125a1437c2ed1518548e436a1b4e50f"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienttga" "094e02ec0549a9cd1559a57e1720fac2317be63a"
+	"clienticon" "e80299a06573bcef4c056d199022867a2923b70f"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "1430110"
+}
+"config"
+{
+	"installdir" "Assetto Corsa Competizione Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "server\\accServer.exe"
+			"description" "Assetto Corsa Competizione Dedicated Server"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5612541580377302256"
+				"size" "64647928"
+				"download" "22986368"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6403079453713498174"
+				"size" "107911652"
+				"download" "35551408"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1430111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9158063282546525560"
+				"size" "3672843"
+				"download" "1515744"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14255706"
+			"timeupdated" "1715073017"
+		}
+	}
+	"privatebranches" "1"
+}
+"_missing_token" "False"
+"_change_number" "32675286"
+"_sha" "c833d09bc1159a03ae244db54430af13d587128d"
+"_size" "1876"
