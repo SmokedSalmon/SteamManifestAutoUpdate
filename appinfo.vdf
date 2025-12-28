@@ -1,0 +1,503 @@
+"appid" "2124780"
+"common"
+{
+	"name" "Endoparasitic"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "94e5181b40a91f7c3de5f51c33592c44e0b03156"
+	"clienticon" "56838a31512f8cad285288523cced9f3907269e2"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"clienttga" "97274c95b0158bcbc5906e5c4c9ef55a45764410"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"steamos_compatibility" "2"
+		"test_timestamp" "1757548800"
+		"tested_build_id" "19884416"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"steamos_tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamOS_TestResult_GameStartupFunctional"
+			}
+			"1"
+			{
+				"display" "1"
+				"token" "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"requires_voice_files" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "67.04384623702023"
+			"height_pct" "68.46504705527416"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "67.04384623702023"
+				"height_pct" "68.46504705527416"
+			}
+		}
+	}
+	"store_asset_mtime" "1750430765"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Deep Root Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Deep Root Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Endoparasitic"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1666629300"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2124780"
+	"content_descriptors_including_dlc"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"store_tags"
+	{
+		"0" "3978"
+		"1" "1667"
+		"2" "4094"
+		"3" "3871"
+		"4" "19"
+		"5" "4791"
+		"6" "1659"
+		"7" "4252"
+		"8" "1687"
+		"9" "7432"
+		"10" "4106"
+		"11" "1755"
+		"12" "4342"
+		"13" "1664"
+		"14" "3834"
+		"15" "4637"
+		"16" "4400"
+		"17" "3964"
+		"18" "6052"
+		"19" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Deep Root Interactive"
+	"publisher" "Deep Root Interactive"
+}
+"config"
+{
+	"installdir" "Endoparasitic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Endoparasitic.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Endoparasitic.x86_64"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "Endoparasitic.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "GodotWorkshopUtility.exe"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "modding"
+			}
+			"description_loc"
+			{
+				"english" "Steam Workshop Mod Uploader Tool"
+			}
+			"description" "Steam Workshop Mod Uploader Tool"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3532864702"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "default,beta"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"2124781"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6987385591214953675"
+				"size" "210000176"
+				"download" "109090752"
+			}
+			"1.0_release"
+			{
+				"gid" "4659788503418028784"
+				"size" "187172152"
+				"download" "94134192"
+			}
+			"modding"
+			{
+				"gid" "7386215110395823792"
+				"size" "247968784"
+				"download" "116511632"
+			}
+			"beta"
+			{
+				"gid" "6987385591214953675"
+				"size" "210000176"
+				"download" "109090752"
+			}
+		}
+	}
+	"2124782"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5803597548284673885"
+				"size" "210721854"
+				"download" "107848960"
+			}
+			"1.0_release"
+			{
+				"gid" "8055916673446643963"
+				"size" "187599942"
+				"download" "93536832"
+			}
+			"modding"
+			{
+				"gid" "4751217960538411354"
+				"size" "248394526"
+				"download" "115911056"
+			}
+			"beta"
+			{
+				"gid" "5803597548284673885"
+				"size" "210721854"
+				"download" "107848960"
+			}
+		}
+	}
+	"2124783"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2325440869355657748"
+				"size" "172205729"
+				"download" "99292864"
+			}
+			"1.0_release"
+			{
+				"gid" "6729655087386956998"
+				"size" "201448681"
+				"download" "98288992"
+			}
+			"modding"
+			{
+				"gid" "7902844159893100808"
+				"size" "219235145"
+				"download" "108877568"
+			}
+			"beta"
+			{
+				"gid" "2325440869355657748"
+				"size" "172205729"
+				"download" "99292864"
+			}
+		}
+	}
+	"2124784"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8676900530717182799"
+				"size" "198631683"
+				"download" "106822928"
+			}
+			"1.0_release"
+			{
+				"gid" "394748415112225696"
+				"size" "241092738"
+				"download" "107556016"
+			}
+			"modding"
+			{
+				"gid" "8342767239668932290"
+				"size" "260519433"
+				"download" "118623440"
+			}
+			"beta"
+			{
+				"gid" "8676900530717182799"
+				"size" "198631683"
+				"download" "106822928"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "19884416"
+			"timeupdated" "1757604839"
+		}
+		"1.0_release"
+		{
+			"buildid" "9787709"
+			"description" "for speedrunners"
+			"timeupdated" "1667339893"
+		}
+		"modding"
+		{
+			"buildid" "11895605"
+			"description" "For accessing the mod uploader utility"
+			"timeupdated" "1691520864"
+		}
+		"beta"
+		{
+			"buildid" "19884416"
+			"description" "for testing new updates"
+			"timeupdated" "1757198115"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Godot/app_userdata/Endoparasitic/"
+			"pattern" "*.save"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Godot/app_userdata/Endoparasitic/save_scrnshots/"
+			"pattern" "*.png"
+		}
+	}
+	"rootoverrides"
+	{
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"3"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Godot/app_userdata/Endoparasitic/"
+					"replace" "godot/app_userdata/Endoparasitic/"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "31169433"
+"_sha" "0fac6900469d02c9e5231c6ce848f9ca225c2927"
+"_size" "8789"
