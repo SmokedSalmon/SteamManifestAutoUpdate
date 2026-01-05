@@ -1,0 +1,255 @@
+"appid" "564390"
+"common"
+{
+	"name" "Serious Sam 2017 Dedicated Server"
+	"type" "Tool"
+	"parent" "564310"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"releasestate" "released"
+	"logo" "31dc0fe51a6f88306d3f437ac0a9ca810a1c2333"
+	"logo_small" "31dc0fe51a6f88306d3f437ac0a9ca810a1c2333_thumb"
+	"freetodownload" "1"
+	"associations"
+	{
+	}
+	"gameid" "564390"
+}
+"config"
+{
+	"installdir" "Serious Sam Fusion 2017"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin/x64/Sam2017_DedicatedServer.exe"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Bin/x64/Sam2017_DedicatedServer"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Bin/x64/Sam2017_DedicatedServer"
+			"type" "server"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5612541580377302256"
+				"size" "64647928"
+				"download" "22986368"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6403079453713498174"
+				"size" "107911652"
+				"download" "35551408"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"564391"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7369212440532702738"
+				"size" "68597118"
+				"download" "20949296"
+			}
+			"internal"
+			{
+				"gid" "1471303992511618423"
+				"size" "69388990"
+				"download" "21223696"
+			}
+		}
+	}
+	"564392"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8207392409225420878"
+				"size" "119470603"
+				"download" "30551136"
+			}
+			"internal"
+			{
+				"gid" "5447724438343540227"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"564393"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "656839774688758553"
+				"size" "79348076"
+				"download" "21315376"
+			}
+			"internal"
+			{
+				"gid" "8307063108342976940"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"564315"
+	{
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564316"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564317"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564318"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564320"
+	{
+		"dlcappid" "564320"
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564321"
+	{
+		"dlcappid" "564321"
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564322"
+	{
+		"dlcappid" "564322"
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564323"
+	{
+		"dlcappid" "564323"
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"564324"
+	{
+		"dlcappid" "564324"
+		"depotfromapp" "564310"
+		"sharedinstall" "2"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3897293"
+			"timeupdated" "1559914025"
+		}
+		"internal"
+		{
+			"buildid" "8212503"
+			"description" "Internal testing - Not so internal now (by Mr. Pinky) - WIP @611604 version, 300+ changes since public version"
+			"timeupdated" "1645003711"
+		}
+	}
+	"privatebranches" "1"
+}
+"_missing_token" "False"
+"_change_number" "32675286"
+"_sha" "5cf29062f062061fb2d74d27b53132e211a4561e"
+"_size" "3774"
