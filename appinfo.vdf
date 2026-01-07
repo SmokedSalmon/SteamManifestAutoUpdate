@@ -1,0 +1,531 @@
+"appid" "486860"
+"common"
+{
+	"name" "MMORPG Tycoon 2"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"icon" "01ce4d86535cff3aff0dffea5eed6377cdd07410"
+	"logo" "d24a48fba08aa4d71a5ed0fa7f834d5085b4508b"
+	"logo_small" "d24a48fba08aa4d71a5ed0fa7f834d5085b4508b_thumb"
+	"clienticon" "6221d5f6f213eabaaa5c23291365b745ba1958e2"
+	"clienttga" "831d43193a990d25bde4a0a31fb2273c77ed1bd2"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"schinese" "1"
+		"brazilian" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"steamos_compatibility" "2"
+		"test_timestamp" "1651276800"
+		"tested_build_id" "8523765"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"steamos_tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamOS_TestResult_GameStartupFunctional"
+			}
+			"1"
+			{
+				"display" "1"
+				"token" "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"requires_voice_files" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "MMORPG Tycoon 2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.603448275862064"
+			"height_pct" "55.44299987341249"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "30.603448275862064"
+				"height_pct" "55.44299987341249"
+			}
+		}
+	}
+	"store_asset_mtime" "1667193002"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "VectorStorm Pty Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "VectorStorm Pty Ltd"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1578297600"
+	"steam_release_date" "1578351867"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "486860"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "1754"
+		"2" "12472"
+		"3" "9"
+		"4" "492"
+		"5" "493"
+		"6" "3810"
+		"7" "4182"
+		"8" "1643"
+		"9" "4328"
+		"10" "13906"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "VectorStorm Pty Ltd"
+	"publisher" "VectorStorm Pty Ltd"
+	"homepage" "http://www.mmorpgtycoon.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "MMORPG Tycoon 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MT2.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "MMORPG Tycoon 2.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "MT2"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"486861"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "483110713652800870"
+				"size" "465094913"
+				"download" "202409136"
+			}
+			"past"
+			{
+				"gid" "8582541254213693835"
+				"size" "457489365"
+				"download" "200068112"
+			}
+			"test"
+			{
+				"gid" "8923041516988978605"
+				"size" "465236657"
+				"download" "202911872"
+			}
+		}
+	}
+	"486862"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7116389230744329463"
+				"size" "462022543"
+				"download" "201481040"
+			}
+			"past"
+			{
+				"gid" "5837065742130218732"
+				"size" "454863117"
+				"download" "199162304"
+			}
+			"test"
+			{
+				"gid" "7446504679024061918"
+				"size" "462190105"
+				"download" "201992768"
+			}
+		}
+	}
+	"486863"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4515705685225155441"
+				"size" "462122556"
+				"download" "207018320"
+			}
+			"past"
+			{
+				"gid" "1669191082028348140"
+				"size" "456061996"
+				"download" "204975264"
+			}
+			"test"
+			{
+				"gid" "5275025378610040078"
+				"size" "462263276"
+				"download" "207517712"
+			}
+		}
+	}
+	"486864"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2953845437353468974"
+				"size" "430327360"
+				"download" "196171568"
+			}
+			"past"
+			{
+				"gid" "5345961702195294668"
+				"size" "422743104"
+				"download" "193828016"
+			}
+			"test"
+			{
+				"gid" "452838594490222148"
+				"size" "430429789"
+				"download" "196675184"
+			}
+		}
+	}
+	"486865"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7105491812352444958"
+				"size" "429076400"
+				"download" "195427424"
+			}
+			"past"
+			{
+				"gid" "1704819817790639131"
+				"size" "421459376"
+				"download" "193060240"
+			}
+			"test"
+			{
+				"gid" "4683828998213269032"
+				"size" "429199149"
+				"download" "195958944"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,schinese,brazilian"
+	"workshopdepot" "486860"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "21272744"
+			"timeupdated" "1766283705"
+		}
+		"past"
+		{
+			"buildid" "20984058"
+			"description" "Very old build for regression testing"
+			"timeupdated" "1766120961"
+		}
+		"test"
+		{
+			"buildid" "21394125"
+			"description" "Public test build"
+			"timeupdated" "1767684585"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/save"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/"
+			"pattern" "lastgame.mt2"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/"
+			"pattern" "desktop.vrt"
+		}
+		"3"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/"
+			"pattern" "metagame.vrt"
+		}
+		"4"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/prefabs/characters/"
+			"pattern" "*.png"
+		}
+		"5"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/prefabs/abilities/"
+			"pattern" "*.vrb"
+		}
+		"6"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/save"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"7"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/"
+			"pattern" "lastgame.mt2"
+		}
+		"8"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/"
+			"pattern" "desktop.vrt"
+		}
+		"9"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/"
+			"pattern" "metagame.vrt"
+		}
+		"10"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/prefabs/characters/"
+			"pattern" "*.png"
+		}
+		"11"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "VectorStorm/MMORPG Tycoon 2/{64BitSteamID}/prefabs/abilities/"
+			"pattern" "*.vrb"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "33088295"
+"_sha" "6baac0dd310b465135b1fe10d079689c09a1026f"
+"_size" "9402"
