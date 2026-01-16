@@ -1,0 +1,1276 @@
+"appid" "534380"
+"common"
+{
+	"name" "Dying Light 2: Reloaded Edition"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"clienticon" "b1355acf75d0e7b605ed286a1a43a46602583d98"
+	"clienttga" "69236486a8022ba4f49ac455e37360315297c91b"
+	"icon" "4036cc941abaeeed5ee8bd433ca69388723f7f19"
+	"logo" "d57cb6d66f769e1809207509bee4207124a20470"
+	"logo_small" "d57cb6d66f769e1809207509bee4207124a20470_thumb"
+	"releasestate" "released"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"czech" "1"
+		"turkish" "1"
+		"arabic" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "534380_eula_0"
+			"name" "Dying Light 2 EULA"
+			"url" "https://store.steampowered.com//eula/534380_eula_0"
+			"version" "4"
+		}
+	}
+	"name_localized"
+	{
+		"schinese" "消逝的光芒2: 重装上阵版"
+	}
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"steamos_compatibility" "2"
+		"test_timestamp" "1679097600"
+		"tested_build_id" "10665051"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"steamos_tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamOS_TestResult_GameStartupFunctional"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"requires_voice_files" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "e67370be55f518fbfb3dd41a6718e06ddcded4d2/capsule_231x87.jpg"
+		"schinese" "6116fa251dc3277a1cfa1ed1c9889d4415637a71/capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_hero_blur" "en"
+		"library_logo" "en,zh-cn"
+		"library_header" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "44.19471678000382"
+			"height_pct" "75.87213712762869"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "5b75126ece6e937bda12bf5f802647c30d7a2801/library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "5b75126ece6e937bda12bf5f802647c30d7a2801/library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "ddb915c6d52fe84caf4d1942fcfe359801a36062/library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "ddb915c6d52fe84caf4d1942fcfe359801a36062/library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_hero_blur"
+		{
+			"image"
+			{
+				"english" "ddb915c6d52fe84caf4d1942fcfe359801a36062/library_hero_blur.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "35a4b5159bc974230ed13624037ecba94e2c9dcf/logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "35a4b5159bc974230ed13624037ecba94e2c9dcf/logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "44.19471678000382"
+				"height_pct" "75.87213712762869"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "361f974102857da0d3ad6e6d5a85b7b52be59b6e/library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "361f974102857da0d3ad6e6d5a85b7b52be59b6e/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1766047959"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Techland"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Techland"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Dying Light"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_1" "1"
+		"category_38" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1643932800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "534380"
+	"content_descriptors_including_dlc"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"store_tags"
+	{
+		"0" "1695"
+		"1" "1685"
+		"2" "1659"
+		"3" "4036"
+		"4" "3859"
+		"5" "1667"
+		"6" "4345"
+		"7" "3835"
+		"8" "3993"
+		"9" "1662"
+		"10" "3839"
+		"11" "3834"
+		"12" "4182"
+		"13" "4231"
+		"14" "19"
+		"15" "21"
+		"16" "4106"
+		"17" "4667"
+		"18" "6971"
+		"19" "6426"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Techland"
+	"publisher" "Techland"
+	"homepage" "https://pilgrimoutpost.techlandgg.com/\?utm_source=steam&amp;utm_medium=store&amp;utm_campaign=dying_light_2"
+	"listofdlc" "1537620,1537621,1537622,1537623,1537624,1864100,1864200,1864230,1864240,1864250,1864260,1888510,1937530,1937531,2108090,2156750,2210190,2217480,2269810,2269820,2330980,2370460,2370480,2370700,2370710,2400900,2456710,3453200,3818860,3833090"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Dying Light 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rwdi.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2"
+			}
+			"description" "Launch DL2"
+		}
+		"1"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch25-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"3"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch25-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD]"
+			}
+			"description" "Launch DL2 [RD]"
+		}
+		"4"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch25-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RWP]"
+			}
+			"description" "Launch DL2 [RWP]"
+		}
+		"5"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "gaas2"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"7"
+		{
+			"executable" "DevTools\\bin\\editor_devtools_x64_rwe.exe"
+			"workingdir" "DevTools\\bin"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "2217480"
+			}
+			"description_loc"
+			{
+				"english" "Developer Tools"
+			}
+			"description" "Developer Tools"
+		}
+		"9"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "gaas-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"10"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "gaas-proto"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"11"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "gaas-proto"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD]"
+			}
+			"description" "Launch DL2 [RD]"
+		}
+		"12"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups -show_outpost=1"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "mph-pub"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"15"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"arguments" "-nopopups"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch24-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD, NO POPUPS]"
+			}
+			"description" "Launch DL2 [RD, NO POPUPS]"
+		}
+		"16"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rd.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch24-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RD]"
+			}
+			"description" "Launch DL2 [RD]"
+		}
+		"17"
+		{
+			"executable" "ph\\work\\bin\\x64\\DyingLightGame_x64_rwp.exe"
+			"workingdir" "ph\\work\\bin\\x64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "patch24-daily"
+				"ownsdlc" "1263580"
+			}
+			"description_loc"
+			{
+				"english" "Launch DL2 [RWP]"
+			}
+			"description" "Launch DL2 [RWP]"
+		}
+	}
+	"matchmaking_uptodate" "1"
+	"steamdecktouchscreen" "5"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2919128487"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,devtools,internal-tests,lqa-weekly,modio,mph-daily,mph-daily-backup,mph-midday,mph-playtest,mph-proto,mph-stable,pac-weekly,patch10-daily,patch11-daily,patch12-daily,patch9-daily,playtests-may-2023,rollback,staging"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "1"
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,czech,turkish,arabic,brazilian,latam"
+	"workshopdepot" "534380"
+	"534381"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5978750194418667929"
+				"size" "23207873127"
+				"download" "19581406096"
+			}
+		}
+	}
+	"534382"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8394563549048373035"
+				"size" "376664668"
+				"download" "119424256"
+			}
+		}
+	}
+	"534383"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "279167662241409679"
+				"size" "44488748937"
+				"download" "24324180752"
+			}
+		}
+	}
+	"534384"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6246122177179392505"
+				"size" "4826411134"
+				"download" "4793457360"
+			}
+		}
+	}
+	"534385"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8844132272661001341"
+				"size" "771036960"
+				"download" "440262144"
+			}
+		}
+	}
+	"534386"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "1263580"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1344544806272816313"
+				"size" "1"
+				"download" "48"
+			}
+		}
+	}
+	"534387"
+	{
+		"config"
+		{
+			"language" "arabic"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4822139479099225166"
+				"size" "2972913"
+				"download" "2973152"
+			}
+		}
+	}
+	"534388"
+	{
+		"config"
+		{
+			"language" "brazilian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1452142566329323516"
+				"size" "4662093335"
+				"download" "4636191968"
+			}
+		}
+	}
+	"534389"
+	{
+		"config"
+		{
+			"language" "brazilian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8043597060335768982"
+				"size" "667920192"
+				"download" "383143248"
+			}
+		}
+	}
+	"1741780"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "358720310361113324"
+				"size" "4572847788"
+				"download" "4545091728"
+			}
+		}
+	}
+	"1741781"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5114084357326881487"
+				"size" "654545792"
+				"download" "372153744"
+			}
+		}
+	}
+	"1741782"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3310564511573391225"
+				"size" "3689825"
+				"download" "3689584"
+			}
+		}
+	}
+	"1741783"
+	{
+		"config"
+		{
+			"language" "czech"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "773060215798123275"
+				"size" "2172084"
+				"download" "2172304"
+			}
+		}
+	}
+	"1741784"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7665195782862039676"
+				"size" "4815593852"
+				"download" "4789016896"
+			}
+		}
+	}
+	"1741785"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5947805620293772928"
+				"size" "659437248"
+				"download" "377891952"
+			}
+		}
+	}
+	"1741786"
+	{
+		"config"
+		{
+			"language" "latam"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1585794487681362325"
+				"size" "4842748517"
+				"download" "4814736816"
+			}
+		}
+	}
+	"1741787"
+	{
+		"config"
+		{
+			"language" "latam"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2165903352301119931"
+				"size" "728313376"
+				"download" "415795280"
+			}
+		}
+	}
+	"1741788"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "455507907294114699"
+				"size" "4778051592"
+				"download" "4752883424"
+			}
+		}
+	}
+	"1741789"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7750683101463211066"
+				"size" "720387360"
+				"download" "410288512"
+			}
+		}
+	}
+	"1741790"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "259086029646626419"
+				"size" "4644036034"
+				"download" "4618008032"
+			}
+		}
+	}
+	"1741791"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6099051836677804352"
+				"size" "681753488"
+				"download" "393753808"
+			}
+		}
+	}
+	"1741792"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4928571425692647010"
+				"size" "2111163"
+				"download" "2111376"
+			}
+		}
+	}
+	"1741793"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6000210350183231521"
+				"size" "4745628301"
+				"download" "4722649888"
+			}
+		}
+	}
+	"1741794"
+	{
+		"config"
+		{
+			"language" "japanese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2786687190734864770"
+				"size" "661522176"
+				"download" "383620384"
+			}
+		}
+	}
+	"1741795"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7601746792625917838"
+				"size" "2534500"
+				"download" "2534736"
+			}
+		}
+	}
+	"1741796"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2077637953935599502"
+				"size" "5024661320"
+				"download" "5001766000"
+			}
+		}
+	}
+	"1741797"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1138193990084827078"
+				"size" "750804896"
+				"download" "454921472"
+			}
+		}
+	}
+	"1741798"
+	{
+		"config"
+		{
+			"language" "portuguese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8684593931648289693"
+				"size" "2092767"
+				"download" "2092928"
+			}
+		}
+	}
+	"1741799"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "295009199332838215"
+				"size" "4948960835"
+				"download" "4927454864"
+			}
+		}
+	}
+	"1741800"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2656624536689003558"
+				"size" "698034672"
+				"download" "398417216"
+			}
+		}
+	}
+	"1741801"
+	{
+		"config"
+		{
+			"language" "turkish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2024549339626775746"
+				"size" "2089077"
+				"download" "2089232"
+			}
+		}
+	}
+	"1741802"
+	{
+		"config"
+		{
+			"language" "arabic"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8369068266057563647"
+				"size" "7344528"
+				"download" "1277424"
+			}
+		}
+	}
+	"1741803"
+	{
+		"config"
+		{
+			"language" "tchinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5943431966587195084"
+				"size" "9180720"
+				"download" "3652656"
+			}
+		}
+	}
+	"1741804"
+	{
+		"config"
+		{
+			"language" "koreana"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5116026304390402775"
+				"size" "3147696"
+				"download" "944176"
+			}
+		}
+	}
+	"1741805"
+	{
+		"dlcappid" "1537624"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4747262783955820121"
+				"size" "347935070"
+				"download" "95409664"
+			}
+		}
+	}
+	"1741806"
+	{
+		"dlcappid" "1537625"
+		"manifests"
+		{
+		}
+	}
+	"1263581"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"optionaldlc" "2217480"
+		}
+		"dlcappid" "2217480"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1562430100236824803"
+				"size" "1006886331"
+				"download" "682960512"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "21239892"
+			"timeupdated" "1766070093"
+		}
+	}
+	"privatebranches" "1"
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "33264834"
+"_sha" "d43d065b703bff6ea05bb079a3e4fba3bcac63c0"
+"_size" "21881"
